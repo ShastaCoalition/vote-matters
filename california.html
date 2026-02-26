@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Why Your Vote Matters - California</title>
+    
+    <!-- Open Graph / Social Media Preview -->
+    <meta property="og:title" content="Your Vote Matters - Every Single Vote Counts">
+    <meta property="og:description" content="Think your vote doesn't matter? Learn why every vote counts in local, state, and federal elections. Register to vote today!">
+    <meta property="og:image" content="https://shastacoalition.github.io/vote-matters/vote-matters-preview.jpg">
+    <meta property="og:url" content="https://shastacoalition.github.io/vote-matters/california.html">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Your Vote Matters - Every Single Vote Counts">
+    <meta name="twitter:description" content="Think your vote doesn't matter? Learn why every vote counts in local, state, and federal elections.">
+    <meta name="twitter:image" content="https://shastacoalition.github.io/vote-matters/vote-matters-preview.jpg">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 0;
+            margin: 0;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 100%;
+            background: white;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 40px 20px 30px 20px;
+            text-align: center;
+        }
+        
+        .header-icon {
+            margin: 0 auto 20px auto;
+            max-width: 600px;
+        }
+        
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 12px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            line-height: 1.1;
+        }
+        
+        .header p {
+            font-size: 1.15em;
+            opacity: 0.95;
+        }
+        
+        .intro {
+            background: #fff3cd;
+            border-left: 6px solid #ffc107;
+            padding: 20px;
+            margin: 25px 15px;
+            border-radius: 10px;
+        }
+        
+        .intro p {
+            font-size: 1.05em;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .corruption-box {
+            background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+            color: white;
+            padding: 20px;
+            margin: 25px 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .corruption-box h3 {
+            font-size: 1.3em;
+            margin-bottom: 12px;
+        }
+        
+        .corruption-box p {
+            font-size: 1.05em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .corruption-link {
+            display: inline-block;
+            background: white;
+            color: #6c5ce7;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1em;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        
+        .section {
+            padding: 10px 15px 20px 15px;
+        }
+        
+        .section-title {
+            font-size: 1.5em;
+            color: #764ba2;
+            margin: 25px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 4px solid #f093fb;
+            line-height: 1.3;
+        }
+        
+        .category {
+            margin-bottom: 25px;
+        }
+        
+        .category h3 {
+            color: #6c5ce7;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            line-height: 1.3;
+            padding-left: 5px;
+        }
+        
+        .category h3::before {
+            content: "→ ";
+            color: #f093fb;
+        }
+        
+        .simple-list {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        
+        .simple-list li {
+            margin: 12px 0;
+            color: #2d3436;
+            line-height: 1.6;
+            font-size: 1em;
+            list-style-position: outside;
+            margin-left: 20px;
+        }
+        
+        .highlight {
+            background: #74b9ff;
+            color: white;
+            padding: 20px;
+            margin: 25px 15px;
+            border-radius: 12px;
+            font-size: 1.05em;
+            line-height: 1.6;
+        }
+        
+        .bottom-line-grid {
+            margin: 20px 0;
+        }
+        
+        .bottom-line-item {
+            background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+            padding: 18px;
+            border-radius: 12px;
+            border-left: 6px solid #d63031;
+            margin-bottom: 15px;
+        }
+        
+        .bottom-line-item strong {
+            color: #2d3436;
+            font-size: 1.1em;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .bottom-line-item p {
+            color: #2d3436;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        
+        .register-section {
+            text-align: center;
+            padding: 30px 20px;
+            background: #f8f9fa;
+        }
+        
+        .register-button {
+            display: block;
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            color: white;
+            padding: 20px 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            margin: 0 auto 15px auto;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+            max-width: 90%;
+        }
+        
+        .urgency-text {
+            color: #333;
+            font-size: 1.05em;
+            font-weight: bold;
+        }
+        
+        .footer {
+            background: #2d3436;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 1.15em;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .header-icon { animation: none !important; }
+}
+
+@media (max-width: 420px) {
+    .header { padding: 34px 16px 26px 16px; }
+    .header h1 { font-size: 2.0em; }
+    .header p { font-size: 1.05em; }
+    .section-title { font-size: 1.4em; }
+    .intro { margin: 22px 12px; padding: 18px; }
+    .highlight { margin: 22px 12px; padding: 18px; }
+    .corruption-box { margin: 22px 12px; padding: 18px; }
+    .register-button {
+        font-size: 1.15em;
+        padding: 18px 22px;
+        max-width: 92%;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-icon">
+                <img src="https://shastacoalition.github.io/vote-matters/vote-matters-preview.jpg" alt="Your Vote Matters" style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.3);">
+            </div>
+            <p style="font-size: 1.8em; font-weight: bold; margin-top: 20px;">Here's Why Every Vote Counts</p>
+            <p style="font-size: 1.1em; margin-top: 15px; opacity: 0.95;">✨ Scroll to the bottom to register right now, or check your voter status ✨</p>
+        </div>
+        
+        <div class="intro">
+            <p><strong>Think your vote doesn't matter because of the Electoral College?</strong> Your vote impacts hundreds of races and issues that directly shape your daily life — many decided by handfuls of votes. <strong>By voting, you can elect leaders in favor of abolishing the Electoral College.</strong> Want to change the system? You have to participate in it.</p>
+        </div>
+        
+        <div class="corruption-box">
+            <h3>"But Politicians Are All Corrupt Anyway..."</h3>
+            <p>Not if you vote for the right ones! A new wave of candidates refuses PAC money and corporate donations. Plus, members of Congress are actively working on anti-corruption legislation right now.</p>
+            <a href="https://neguse.house.gov/about/priorities/ending-corruption" target="_blank" class="corruption-link">See the End Corruption Now Package →</a>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">🏛️ LOCAL ELECTIONS: Where Your Vote Has the MOST Power</h2>
+            
+            <div class="category">
+                <h3>Races Often Decided by Single-Digit Margins</h3>
+                <ul class="simple-list">
+                    <li><strong>School boards</strong> — curriculum, teacher pay, school funding, education quality</li>
+                    <li><strong>City council</strong> — local budget, police funding, housing policy, neighborhood development</li>
+                    <li><strong>Board of Supervisors</strong> — roads, parks, libraries, public health services</li>
+                    <li><strong>Mayors</strong> — set community vision and priorities</li>
+                    <li><strong>Sheriffs</strong> — determine law enforcement operations</li>
+                    <li><strong>District attorneys</strong> — decide what crimes to prosecute and how</li>
+                    <li><strong>Judges</strong> — rulings on criminal justice, family law, civil disputes</li>
+                </ul>
+            </div>
+            
+            <div class="category">
+                <h3>State-Level Positions That Shape Your Life</h3>
+                <ul class="simple-list">
+                    <li><strong>State legislators</strong> — laws on healthcare, education, workers' rights, environment</li>
+                    <li><strong>Governors</strong> — veto or approve state laws, control emergency responses</li>
+                    <li><strong>Attorneys general</strong> — enforce consumer protection, civil rights, environmental laws</li>
+                    <li><strong>State supreme court justices</strong> — final say on state constitutional issues</li>
+                    <li><strong>Secretaries of state</strong> — oversee elections and voting access</li>
+                    <li><strong>State treasurers</strong> — manage billions in public funds</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="highlight">
+            <strong>📊 Real Talk:</strong> In 2023 alone, over 40 local elections across the U.S. were decided by 5 votes or fewer. One Virginia House race was literally decided by drawing a name from a bowl after a TIE.
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">📋 BALLOT MEASURES: You Decide Policy Directly</h2>
+            
+            <div class="category">
+                <h3>Issues You Vote On Directly (No Politicians Involved)</h3>
+                <ul class="simple-list">
+                    <li><strong>Minimum wage increases</strong> — directly raise worker pay</li>
+                    <li><strong>Marijuana legalization</strong> — criminal justice reform, medical access, tax revenue</li>
+                    <li><strong>Abortion rights</strong> — state constitutional protections</li>
+                    <li><strong>Voting rights expansions</strong> — automatic registration, early voting, mail-in voting</li>
+                    <li><strong>Criminal justice reform</strong> — end cash bail, police accountability</li>
+                    <li><strong>Environmental protections</strong> — clean energy mandates, pollution limits</li>
+                    <li><strong>Education funding</strong> — school bonds, teacher salary increases</li>
+                    <li><strong>Rent control</strong> — housing affordability protections</li>
+                    <li><strong>Healthcare expansion</strong> — Medicaid, prescription drug pricing</li>
+                    <li><strong>Transportation</strong> — public transit, bike lanes, road funding</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">🏢 FEDERAL RACES: Yes, These Matter Too</h2>
+            
+            <div class="category">
+                <h3>Congress Controls Everything</h3>
+                <ul class="simple-list">
+                    <li><strong>Student loan forgiveness</strong> — requires Congressional funding approval</li>
+                    <li><strong>Healthcare access</strong> — Medicare, Medicaid, ACA protections</li>
+                    <li><strong>Climate action</strong> — clean energy investments, emissions regulations</li>
+                    <li><strong>Immigration policy</strong> — DACA, citizenship pathways, border policy</li>
+                    <li><strong>Social Security & Medicare</strong> — retirement and elderly care funding</li>
+                    <li><strong>Federal minimum wage</strong> — raise the nationwide wage floor</li>
+                    <li><strong>Supreme Court appointments</strong> — Senate confirms justices (lifetime appointments!)</li>
+                    <li><strong>Reproductive rights</strong> — federal protections or restrictions</li>
+                    <li><strong>Gun regulations</strong> — background checks, assault weapon bans</li>
+                    <li><strong>Voting rights protections</strong> — federal laws protecting ballot access</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="highlight">
+            <strong>🔥 Fun Fact:</strong> In 2000, George W. Bush won Florida (and the presidency) by just 537 votes out of nearly 6 million cast. In 2008, Al Franken won his Minnesota Senate seat by 312 votes — giving Democrats the 60th vote needed to pass the Affordable Care Act.
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">💪 BEYOND THE BALLOT: Why Voting Matters for Democracy</h2>
+            
+            <ul class="simple-list">
+                <li><strong>Politicians track who votes</strong> — they monitor turnout by age/demographic and ignore non-voting groups</li>
+                <li><strong>Young people are the largest potential bloc</strong> — if Gen Z matched Boomer turnout, elections would transform</li>
+                <li><strong>Voting is habit-forming</strong> — vote young, vote for life; skip once, keep skipping</li>
+                <li><strong>Down-ballot races shape future leaders</strong> — today's city councilor is tomorrow's senator</li>
+                <li><strong>Primaries matter as much as generals</strong> — often decide the real winner in safe districts</li>
+                <li><strong>Your vote represents your community</strong> — low turnout means less political power and resources</li>
+                <li><strong>Voting protects voting rights</strong> — high turnout deters voter suppression</li>
+                <li><strong>Sets the political agenda</strong> — high youth turnout forces candidates to address young people's issues</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">⚡ The Bottom Line</h2>
+            
+            <div class="bottom-line-grid">
+                <div class="bottom-line-item">
+                    <strong>Your daily life is governed locally</strong>
+                    <p>Mayor, city council, and school board affect your life more than the president. Those races are decided by hundreds or dozens of votes.</p>
+                </div>
+                
+                <div class="bottom-line-item">
+                    <strong>You vote on policies, not just people</strong>
+                    <p>Ballot measures let you directly decide laws on wages, housing, healthcare, justice reform — no Electoral College involved.</p>
+                </div>
+                
+                <div class="bottom-line-item">
+                    <strong>Non-voters get ignored</strong>
+                    <p>Politicians check turnout data. If young people don't vote, they won't prioritize student debt, climate change, or housing affordability.</p>
+                </div>
+                
+                <div class="bottom-line-item">
+                    <strong>Even "safe" states have competitive races</strong>
+                    <p>Blue states have red districts. Red states pass progressive ballot measures. Every race is different.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="register-section">
+            <a href="https://registertovote.ca.gov/" target="_blank" class="register-button">
+                🗳️ REGISTER TO VOTE IN CALIFORNIA 🗳️
+            </a>
+            <p class="urgency-text">Click here to register NOW before they change the rules!</p>
+        </div>
+        
+        <div class="footer">
+            YOUR VOTE IS YOUR VOICE. USE IT. ✊
+        </div>
+    </div>
+</body>
+</html>
